@@ -1,0 +1,9 @@
+.Checkout{
+    align-content: center;
+    padding: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 7px 10px 0px slategrey;
+    border: 1px solid darkgrey;
+    max-width: 600px;
+}

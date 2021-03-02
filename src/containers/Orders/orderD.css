@@ -1,0 +1,13 @@
+.orderD{
+    width: 90%;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 3px dimgrey;
+    padding: 5px;
+    margin: 10px auto;
+    align-content: center;
+    box-sizing: border-box;
+}
+span{
+    margin:5px auto;
+    padding:10px;
+}

@@ -1,0 +1,31 @@
+.input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    align-content: center;
+}
+.label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+   
+}
+
+.inp{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+}
+.invalid{
+    border-color: red
+}
+
+.inp:focus{
+    outline:none;
+    background-color: #ccc;
+
+}

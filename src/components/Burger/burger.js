@@ -18,7 +18,7 @@ const burger = (props)=>{
     return(
         <div className={classes.burger}>
             <Ingredients type="bread-top"></Ingredients>
-             {dynamicBurger}
+            {dynamicBurger}
             <Ingredients type="bread-bottom"></Ingredients>
         </div>
     );
