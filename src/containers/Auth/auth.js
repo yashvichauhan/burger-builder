@@ -28,7 +28,8 @@ class Auth extends Component{
         }catch(error){
             console.log(error)
         }
-        this.props.onAuth(this.state.login.email,this.state.login.password,this.props.authSt)
+        this.props.onAuth(this.state.login.email,this.state.login.password,this.props.authSt);
+        this.props.history.push('/build');
     }
     //auxiliary
     allValid=(isValid)=>{

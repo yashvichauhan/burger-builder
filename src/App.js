@@ -26,7 +26,7 @@ class App extends Component {
           <Switch>
             <Route path="/checkout" component={Checkout}></Route>
             <Route path="/orders" component={Orders}></Route>
-            <Route path="/" exact component={Builder}></Route> 
+            {(this.props.user)?<Route path="/build" exact component={Builder}></Route>:<Route path="/" exact component={Auth}></Route>}
           </Switch>
         </Layout>
       </div>
